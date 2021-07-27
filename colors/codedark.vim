@@ -131,7 +131,7 @@ if g:codedark_conservative | let s:cdPink = s:cdBlue | endif
 call <sid>hi('Normal', s:cdFront, s:cdBack, 'none', {})
 call <sid>hi('ColorColumn', {}, s:cdCursorDarkDark, 'none', {})
 call <sid>hi('Cursor', s:cdCursorDark, s:cdCursorLight, 'none', {})
-call <sid>hi('CursorLine', {}, s:cdCursorDarkDark, 'none', {})
+call <sid>hi('CursorLine', {}, s:cdCursorDarkDark, 'underline', {})
 call <sid>hi('CursorColumn', {}, s:cdCursorDarkDark, 'none', {})
 call <sid>hi('Directory', s:cdBlue, s:cdBack, 'none', {})
 call <sid>hi('DiffAdd', {}, s:cdDiffGreenLight, 'none', {})
